@@ -1,0 +1,1145 @@
+{
+    "lens_id": "",
+    "document_id": "ZxsejNc3W4VvmhXB6UFY",
+    "original_document_id": "uiivrZ5N1dxHMXmHWyQP",
+    "version": "14",
+    "lastChanged": "1563525352277",
+    "preview": "",
+    "videoPreview": "",
+    "videoPreviewUpdateTime": "",
+    "isReadOnly": "false",
+    "studioVersion": {
+        "createdWith": {
+            "type": "Public",
+            "major": "2",
+            "minor": "0",
+            "patch": "0",
+            "build": "2"
+        },
+        "lastSavedWith": {
+            "type": "Public",
+            "major": "2",
+            "minor": "0",
+            "patch": "1",
+            "build": "0"
+        }
+    },
+    "view": {
+        "ResourceUiComponent": {
+            "collapsedList": [
+                [
+                    [
+                        "Textures"
+                    ],
+                    [
+                        "Textures",
+                        "Base"
+                    ],
+                    [
+                        "Textures",
+                        "Normal"
+                    ],
+                    [
+                        "Textures",
+                        "echopark_diff"
+                    ],
+                    [
+                        "Textures",
+                        "echopark_spec"
+                    ],
+                    [
+                        "materials"
+                    ],
+                    [
+                        "materials",
+                        "Matte Shadow"
+                    ],
+                    [
+                        "materials",
+                        "boxMat"
+                    ],
+                    [
+                        "meshes"
+                    ],
+                    [
+                        "meshes",
+                        "Box"
+                    ],
+                    [
+                        "meshes",
+                        "Plane"
+                    ],
+                    [
+                        "meshes",
+                        "Sphere"
+                    ],
+                    [
+                        "prefabs"
+                    ],
+                    [
+                        "prefabs",
+                        "PhysicsBox"
+                    ],
+                    [
+                        "prefabs",
+                        "PhysicsSphere"
+                    ],
+                    [
+                        "scripts",
+                        "Script"
+                    ],
+                    [
+                        "scripts",
+                        "physicsMesh"
+                    ],
+                    [
+                        "scripts",
+                        "snapchatUtil"
+                    ]
+                ]
+            ]
+        },
+        "SceneTreeUiComponent": {
+            "collapsedList": [
+                ""
+            ]
+        },
+        "MetaInfoUIComponent": {
+            "hints": "",
+            "lens": "Untitled",
+            "camera": "2",
+            "lens_descriptors": ""
+        },
+        "PreviewUiComponent": {
+            "is_back_camera": "true",
+            "show_snap_ui": "true",
+            "show_sponsored_ui": "false"
+        },
+        "InspectorUiComponent": {
+            "collapsedList": [
+                ""
+            ]
+        },
+        "LayerUiComponent": {
+            "colorMap": ""
+        }
+    },
+    "model": {
+        "IResourceManager": {
+            "list": [
+                {
+                    "resId": "1",
+                    "uid": "1:1",
+                    "name": "Camera Output",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "2",
+                    "uid": "2:2",
+                    "name": "Camera Input",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "8",
+                    "uid": "1517446348230286:84828",
+                    "name": "\/Resources\/Resource8.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "9",
+                    "uid": "1517446348234137:84840",
+                    "name": "\/Resources\/Resource9.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "10",
+                    "uid": "1557419882062297:1984",
+                    "name": "Files\/File3.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "11",
+                    "uid": "1557924964551025:2659",
+                    "name": "Files\/File4.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "12",
+                    "uid": "1558557375048295:28677",
+                    "name": "Files\/File5.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "13",
+                    "uid": "1558557379677635:29048",
+                    "name": "Files\/File6.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "14",
+                    "uid": "1559219348380361:4351",
+                    "name": "Files\/File7.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "20",
+                    "uid": "1559228112495601:135161",
+                    "name": "Files\/File18",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "21",
+                    "uid": "1559228112540577:135196",
+                    "name": "Files\/File20.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "22",
+                    "uid": "1559228112549254:135211",
+                    "name": "Files\/File22.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "24",
+                    "uid": "1559228232856083:146316",
+                    "name": "Files\/File26",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "26",
+                    "uid": "1559234266096642:291602",
+                    "name": "PhysicsBox",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "27",
+                    "uid": "1559234599873029:313168",
+                    "name": "Files\/File32.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "28",
+                    "uid": "1559234978898086:351798",
+                    "name": "PhysicsSphere",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                }
+            ],
+            "MaterialUpdateManager": {
+                "unrecognizedMaterials": ""
+            }
+        },
+        "InspectorComponent": {
+            "Component": {
+                "FaceStretchVisual": {
+                    "uidsToFeatureNamesWithIntensity": ""
+                },
+                "ScreenTransform": {
+                    "uidData": "",
+                    "generalData": ""
+                }
+            }
+        },
+        "RenderOrderComponent": {
+            "autoRenderOrder": {
+                "0": "1517446348227994:84813",
+                "1": "1517446348228144:84822",
+                "2": "1528843813151434:5126",
+                "3": "1557419919594199:2099",
+                "4": "1559220172960707:12505",
+                "5": "1559221042465179:21927",
+                "6": "1559221803752159:31231",
+                "7": "1559227144602655:105261",
+                "8": "1559227145131362:105943",
+                "9": "1559227145465604:106676",
+                "10": "1559227145679526:106885",
+                "11": "1559227145891066:107720",
+                "12": "1559227145991292:107920",
+                "13": "1559227146351459:108864",
+                "14": "1559227146558479:109071",
+                "15": "1559227146753220:109418",
+                "16": "1559227146951895:110315",
+                "17": "1559228232884806:146333",
+                "18": "1559232521945248:256578",
+                "19": "1559234599877286:313243",
+                "20": "1559666765166218:32291",
+                "21": "1559666769010115:33701"
+            }
+        },
+        "LayerComponent": {
+            "nextLayerId": "2",
+            "showOrthographicLayer": "false",
+            "layersInfo": [
+                {
+                    "layerId": "0",
+                    "layerName": "Default Layer",
+                    "layerMask": "1"
+                },
+                {
+                    "layerId": "1",
+                    "layerName": "Orthographic Layer",
+                    "layerMask": "1048576"
+                }
+            ]
+        },
+        "IFileManager": {
+            "pathes": [
+                {
+                    "k": "1",
+                    "v": "Files\/File1.png"
+                },
+                {
+                    "k": "2",
+                    "v": "Files\/File2.png"
+                },
+                {
+                    "k": "3",
+                    "v": "Files\/File3.js"
+                },
+                {
+                    "k": "4",
+                    "v": "Files\/File4.js"
+                },
+                {
+                    "k": "5",
+                    "v": "Files\/File5.mesh"
+                },
+                {
+                    "k": "6",
+                    "v": "Files\/File6.mesh"
+                },
+                {
+                    "k": "7",
+                    "v": "Files\/File7.js"
+                },
+                {
+                    "k": "18",
+                    "v": "Files\/File18"
+                },
+                {
+                    "k": "19",
+                    "v": "Files\/File19.lsmat"
+                },
+                {
+                    "k": "20",
+                    "v": "Files\/File20.png"
+                },
+                {
+                    "k": "21",
+                    "v": "Files\/File21.png"
+                },
+                {
+                    "k": "22",
+                    "v": "Files\/File22.png"
+                },
+                {
+                    "k": "23",
+                    "v": "Files\/File23.png"
+                },
+                {
+                    "k": "26",
+                    "v": "Files\/File26"
+                },
+                {
+                    "k": "27",
+                    "v": "Files\/File27.lsmat"
+                },
+                {
+                    "k": "30",
+                    "v": "Files\/File30.oprfb"
+                },
+                {
+                    "k": "31",
+                    "v": "Files\/File31.oprfb"
+                },
+                {
+                    "k": "32",
+                    "v": "Files\/File32.mesh"
+                },
+                {
+                    "k": "33",
+                    "v": "Files\/File33.oprfb"
+                },
+                {
+                    "k": "34",
+                    "v": "Files\/File34.oprfb"
+                }
+            ]
+        },
+        "WorldComponent": {
+            "sceneFile": "scene.scn",
+            "sceneType": "binaryScene"
+        }
+    },
+    "controller": {
+        "IResourceController": {
+            "public": {
+                "pathes": [
+                    {
+                        "k": "1",
+                        "v": "Textures\/echopark_diff.png"
+                    },
+                    {
+                        "k": "2",
+                        "v": "Textures\/echopark_spec.png"
+                    },
+                    {
+                        "k": "3",
+                        "v": "scripts\/Script.js"
+                    },
+                    {
+                        "k": "4",
+                        "v": "scripts\/snapchatUtil.js"
+                    },
+                    {
+                        "k": "181",
+                        "v": "meshes\/Plane.mesh"
+                    },
+                    {
+                        "k": "182",
+                        "v": "meshes\/Box.mesh"
+                    },
+                    {
+                        "k": "183",
+                        "v": "scripts\/physicsMesh.js"
+                    },
+                    {
+                        "k": "189",
+                        "v": "Textures"
+                    },
+                    {
+                        "k": "190",
+                        "v": "Textures\/Base.png"
+                    },
+                    {
+                        "k": "191",
+                        "v": "Textures\/Normal.png"
+                    },
+                    {
+                        "k": "192",
+                        "v": "materials\/boxMat.lsmat"
+                    },
+                    {
+                        "k": "194",
+                        "v": "materials\/Matte Shadow.lsmat"
+                    },
+                    {
+                        "k": "195",
+                        "v": "materials"
+                    },
+                    {
+                        "k": "196",
+                        "v": "meshes"
+                    },
+                    {
+                        "k": "197",
+                        "v": "scripts"
+                    },
+                    {
+                        "k": "199",
+                        "v": "prefabs\/PhysicsBox.oprfb"
+                    },
+                    {
+                        "k": "200",
+                        "v": "meshes\/Sphere.mesh"
+                    },
+                    {
+                        "k": "201",
+                        "v": "prefabs\/PhysicsSphere.oprfb"
+                    },
+                    {
+                        "k": "202",
+                        "v": "prefabs"
+                    }
+                ],
+                "hashes": [
+                    {
+                        "k": "1",
+                        "v": "671afbc1d6810060ccbaac866a91cfa1"
+                    },
+                    {
+                        "k": "2",
+                        "v": "8e599835d0d45c5879eafb1f474469cd"
+                    },
+                    {
+                        "k": "3",
+                        "v": "2aefec6cd45a5b0419c42b30ddd0eabc"
+                    },
+                    {
+                        "k": "4",
+                        "v": "19e40ba05d2744725d1fd17b3d1cf365"
+                    },
+                    {
+                        "k": "5",
+                        "v": "e14a0f086ba10d2a67613ef36404f40f"
+                    },
+                    {
+                        "k": "181",
+                        "v": "4649d59d58657e786eebaad58a052d2a"
+                    },
+                    {
+                        "k": "182",
+                        "v": "0f22bac28f4bb7f9303722acb5d035e0"
+                    },
+                    {
+                        "k": "183",
+                        "v": "04153a684e0b5bcae8948680d7626138"
+                    },
+                    {
+                        "k": "184",
+                        "v": "a264fd63077702d01b19c986b5d70f19"
+                    },
+                    {
+                        "k": "185",
+                        "v": "fbb8fd50792c3924dcb91f5353f1dfa4"
+                    },
+                    {
+                        "k": "186",
+                        "v": "33d2310443ac5bd198f7ba2ee0fb1da5"
+                    },
+                    {
+                        "k": "187",
+                        "v": "bcc76c4b67cb447fd534c6c3dc66510a"
+                    },
+                    {
+                        "k": "188",
+                        "v": "7584a7f9b041549359607c7ec5bb5be2"
+                    },
+                    {
+                        "k": "190",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "191",
+                        "v": "8a0173d0b987e1abfebd4ef9e3304c0b"
+                    },
+                    {
+                        "k": "192",
+                        "v": "b5d7c9fdf21dbd206fa5b627f155a125"
+                    },
+                    {
+                        "k": "193",
+                        "v": "238c6082c29dac2dd42fea58b49ddcf7"
+                    },
+                    {
+                        "k": "194",
+                        "v": "2b80d5e44765cef6094df5bb4e19bad4"
+                    },
+                    {
+                        "k": "198",
+                        "v": "4dcacbed84daa3ed956253f85a5a19e2"
+                    },
+                    {
+                        "k": "199",
+                        "v": "ddaede056d17c0c8d380b392844dc6fa"
+                    },
+                    {
+                        "k": "200",
+                        "v": "0484abd87ee78b2745eb9563b19fd6a2"
+                    },
+                    {
+                        "k": "201",
+                        "v": "edbf819d873c7d03783c29037ce0f84d"
+                    }
+                ],
+                "publicState": {
+                    "tree": {
+                        "isFolder": "true",
+                        "lastModified": "2019-05-30T17:50:16",
+                        "name": "Public",
+                        "hash": "4f5fad208eec7ff6afa32789b36ea5af",
+                        "children": [
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-05-30T16:06:56",
+                                "name": "Textures",
+                                "hash": "73452d89299c0635b19194ec17e1c733",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-16T12:18:21",
+                                        "name": "echopark_diff.png",
+                                        "hash": "671afbc1d6810060ccbaac866a91cfa1",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-16T12:18:21",
+                                        "name": "echopark_spec.png",
+                                        "hash": "8e599835d0d45c5879eafb1f474469cd",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T15:55:12",
+                                        "name": "Base.png",
+                                        "hash": "cb607d7b25a160872c49fb4d2635cc33",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T15:55:12",
+                                        "name": "Normal.png",
+                                        "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T15:55:12",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-05-30T16:06:34",
+                                "name": "materials",
+                                "hash": "691c0b467b8c078a348931afe0a5fd21",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T16:06:34",
+                                        "name": "boxMat.lsmat",
+                                        "hash": "b5d7c9fdf21dbd206fa5b627f155a125",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T16:06:26",
+                                        "name": "Matte Shadow.lsmat",
+                                        "hash": "2b80d5e44765cef6094df5bb4e19bad4",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T16:05:52",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-05-30T17:50:16",
+                                "name": "prefabs",
+                                "hash": "ecafa6d65165b910608e02747ecd476c",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T17:50:16",
+                                        "name": "PhysicsBox.oprfb",
+                                        "hash": "ddaede056d17c0c8d380b392844dc6fa",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T17:50:16",
+                                        "name": "PhysicsSphere.oprfb",
+                                        "hash": "edbf819d873c7d03783c29037ce0f84d",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T17:49:51",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-05-30T17:49:41",
+                                "name": "meshes",
+                                "hash": "19c0f8f101bd2aeac040b441b2c79abb",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-22T21:36:15",
+                                        "name": "Plane.mesh",
+                                        "hash": "4649d59d58657e786eebaad58a052d2a",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-22T21:36:19",
+                                        "name": "Box.mesh",
+                                        "hash": "0f22bac28f4bb7f9303722acb5d035e0",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T17:43:19",
+                                        "name": "Sphere.mesh",
+                                        "hash": "0484abd87ee78b2745eb9563b19fd6a2",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T16:06:01",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-07-18T22:20:08",
+                                "name": "scripts",
+                                "hash": "f571ba623d195e1edffa3214d00c4218",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T17:44:43",
+                                        "name": "physicsMesh.js",
+                                        "hash": "04153a684e0b5bcae8948680d7626138",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-18T22:54:08",
+                                        "name": "Script.js",
+                                        "hash": "2aefec6cd45a5b0419c42b30ddd0eabc",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-18T22:20:56",
+                                        "name": "snapchatUtil.js",
+                                        "hash": "19e40ba05d2744725d1fd17b3d1cf365",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T16:06:10",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2019-05-16T12:18:21",
+                                "name": "folder.lock",
+                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
+                            }
+                        ]
+                    }
+                },
+                "complexResources": ""
+            },
+            "tree": {
+                "name": "",
+                "type": "0",
+                "subtype": "-1",
+                "resourceId": "-1",
+                "dependency": "0",
+                "uid": "-1:-1",
+                "fileId": "18446744073709551615",
+                "originalId": "18446744073709551615",
+                "publicId": "18446744073709551615",
+                "source": "",
+                "additional": "",
+                "resources": [
+                    {
+                        "name": "Textures",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "189",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Base",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "21",
+                                "dependency": "0",
+                                "uid": "1559228112540577:135196",
+                                "fileId": "20",
+                                "originalId": "21",
+                                "publicId": "190",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Normal",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "22",
+                                "dependency": "0",
+                                "uid": "1559228112549254:135211",
+                                "fileId": "22",
+                                "originalId": "23",
+                                "publicId": "191",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Render Target",
+                                "type": "1",
+                                "subtype": "1",
+                                "resourceId": "1",
+                                "dependency": "0",
+                                "uid": "1:1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Device Camera Texture",
+                                "type": "1",
+                                "subtype": "3",
+                                "resourceId": "2",
+                                "dependency": "0",
+                                "uid": "2:2",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "echopark_diff",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "8",
+                                "dependency": "0",
+                                "uid": "1517446348230286:84828",
+                                "fileId": "1",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "echopark_spec",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "9",
+                                "dependency": "0",
+                                "uid": "1517446348234137:84840",
+                                "fileId": "2",
+                                "originalId": "18446744073709551615",
+                                "publicId": "2",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "materials",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "195",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "boxMat",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "20",
+                                "dependency": "0",
+                                "uid": "1559228112495601:135161",
+                                "fileId": "18",
+                                "originalId": "19",
+                                "publicId": "192",
+                                "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/materials\/Diffuse.lsmat",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Matte Shadow",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "24",
+                                "dependency": "0",
+                                "uid": "1559228232856083:146316",
+                                "fileId": "26",
+                                "originalId": "27",
+                                "publicId": "194",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "meshes",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "196",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Plane",
+                                "type": "3",
+                                "subtype": "0",
+                                "resourceId": "12",
+                                "dependency": "0",
+                                "uid": "1558557375048295:28677",
+                                "fileId": "5",
+                                "originalId": "18446744073709551615",
+                                "publicId": "181",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Box",
+                                "type": "3",
+                                "subtype": "0",
+                                "resourceId": "13",
+                                "dependency": "0",
+                                "uid": "1558557379677635:29048",
+                                "fileId": "6",
+                                "originalId": "18446744073709551615",
+                                "publicId": "182",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Sphere",
+                                "type": "3",
+                                "subtype": "0",
+                                "resourceId": "27",
+                                "dependency": "0",
+                                "uid": "1559234599873029:313168",
+                                "fileId": "32",
+                                "originalId": "18446744073709551615",
+                                "publicId": "200",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scripts",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "197",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Script",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "10",
+                                "dependency": "0",
+                                "uid": "1557419882062297:1984",
+                                "fileId": "3",
+                                "originalId": "18446744073709551615",
+                                "publicId": "3",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "snapchatUtil",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "11",
+                                "dependency": "0",
+                                "uid": "1557924964551025:2659",
+                                "fileId": "4",
+                                "originalId": "18446744073709551615",
+                                "publicId": "4",
+                                "source": "\/Users\/ashley\/Documents\/repos\/snapchat-util\/dist\/index.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "physicsMesh",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "14",
+                                "dependency": "0",
+                                "uid": "1559219348380361:4351",
+                                "fileId": "7",
+                                "originalId": "18446744073709551615",
+                                "publicId": "183",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "prefabs",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "202",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "PhysicsBox",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "26",
+                                "dependency": "0",
+                                "uid": "1559234266096642:291602",
+                                "fileId": "30",
+                                "originalId": "31",
+                                "publicId": "199",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "PhysicsSphere",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "28",
+                                "dependency": "0",
+                                "uid": "1559234978898086:351798",
+                                "fileId": "33",
+                                "originalId": "34",
+                                "publicId": "201",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "InspectorController": {
+            "selection": ""
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": "",
+            "17": "",
+            "18": "",
+            "19": "",
+            "20": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": [
+                    {
+                        "k": "1559220172960707:12505",
+                        "v": {
+                            "prefab": "1559234266096642:291602",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1559220172960707:12505",
+                                    "v": "1559220172960707:12505"
+                                },
+                                {
+                                    "k": "1559220172961027:12512",
+                                    "v": "1559220172961027:12512"
+                                },
+                                {
+                                    "k": "1559220172991920:12577",
+                                    "v": "1559220172991920:12577"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1559234599877286:313243",
+                        "v": {
+                            "prefab": "1559234978898086:351798",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1559234599877286:313243",
+                                    "v": "1559234599877286:313243"
+                                },
+                                {
+                                    "k": "1559234599877692:313250",
+                                    "v": "1559234599877692:313250"
+                                },
+                                {
+                                    "k": "1559234627146488:314680",
+                                    "v": "1559234627146488:314680"
+                                },
+                                {
+                                    "k": "1559234729729113:333364",
+                                    "v": "1559234729729113:333364"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "importInfo": ""
+        }
+    }
+}
