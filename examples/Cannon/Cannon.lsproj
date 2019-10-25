@@ -1,26 +1,27 @@
 {
     "lens_id": "",
-    "document_id": "ZxsejNc3W4VvmhXB6UFY",
+    "document_id": "l9j4SYH7Ya5bTu1rrKlE",
     "original_document_id": "uiivrZ5N1dxHMXmHWyQP",
-    "version": "14",
-    "lastChanged": "1563525352277",
+    "version": "16",
+    "lastChanged": "1572039066090",
     "preview": "",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
+    "isAutoSaved": "false",
     "studioVersion": {
         "createdWith": {
             "type": "Public",
             "major": "2",
-            "minor": "0",
+            "minor": "1",
             "patch": "0",
-            "build": "2"
+            "build": "0"
         },
         "lastSavedWith": {
             "type": "Public",
             "major": "2",
-            "minor": "0",
-            "patch": "1",
+            "minor": "1",
+            "patch": "0",
             "build": "0"
         }
     },
@@ -86,7 +87,11 @@
                     ],
                     [
                         "scripts",
-                        "Script"
+                        "Main"
+                    ],
+                    [
+                        "scripts",
+                        "cannonHelper"
                     ],
                     [
                         "scripts",
@@ -113,15 +118,24 @@
         "PreviewUiComponent": {
             "is_back_camera": "true",
             "show_snap_ui": "true",
-            "show_sponsored_ui": "false"
+            "show_sponsored_ui": "false",
+            "preview_images_project_config": {
+                "front_preview_id": "bundle:PreviewPresets\/Images\/Person 2.jpg",
+                "front_preview_is_favorite": "false",
+                "back_preview_id": "bundle:PreviewPresets\/Images\/Patio.jpg",
+                "back_preview_is_favorite": "false"
+            },
+            "preview_videos_project_config": {
+                "front_preview_id": "bundle:PreviewPresets\/Videos\/Idle Person 1.webm",
+                "front_preview_is_favorite": "false",
+                "back_preview_id": "bundle:PreviewPresets\/Videos\/Patio.webm",
+                "back_preview_is_favorite": "false"
+            }
         },
         "InspectorUiComponent": {
             "collapsedList": [
                 ""
             ]
-        },
-        "LayerUiComponent": {
-            "colorMap": ""
         }
     },
     "model": {
@@ -254,6 +268,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "0"
+                },
+                {
+                    "resId": "29",
+                    "uid": "1572033663292737:6133",
+                    "name": "Files\/File35.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -304,12 +326,14 @@
                 {
                     "layerId": "0",
                     "layerName": "Default Layer",
-                    "layerMask": "1"
+                    "layerMask": "1",
+                    "colorCode": "20"
                 },
                 {
                     "layerId": "1",
                     "layerName": "Orthographic Layer",
-                    "layerMask": "1048576"
+                    "layerMask": "1048576",
+                    "colorCode": "21"
                 }
             ]
         },
@@ -394,6 +418,10 @@
                 {
                     "k": "34",
                     "v": "Files\/File34.oprfb"
+                },
+                {
+                    "k": "35",
+                    "v": "Files\/File35.js"
                 }
             ]
         },
@@ -416,7 +444,7 @@
                     },
                     {
                         "k": "3",
-                        "v": "scripts\/Script.js"
+                        "v": "scripts\/Main.js"
                     },
                     {
                         "k": "4",
@@ -481,6 +509,10 @@
                     {
                         "k": "202",
                         "v": "prefabs"
+                    },
+                    {
+                        "k": "203",
+                        "v": "scripts\/cannonHelper.js"
                     }
                 ],
                 "hashes": [
@@ -494,7 +526,7 @@
                     },
                     {
                         "k": "3",
-                        "v": "2aefec6cd45a5b0419c42b30ddd0eabc"
+                        "v": "0b782c25bbcf24737327f61ea600c779"
                     },
                     {
                         "k": "4",
@@ -571,52 +603,56 @@
                     {
                         "k": "201",
                         "v": "edbf819d873c7d03783c29037ce0f84d"
+                    },
+                    {
+                        "k": "203",
+                        "v": "07dda9f5896f281590a927ba80b37892"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-05-30T17:50:16",
+                        "lastModified": "2019-10-25T10:59:14",
                         "name": "Public",
-                        "hash": "4f5fad208eec7ff6afa32789b36ea5af",
+                        "hash": "b9a48e20d3171b591ac0247215b93d63",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-05-30T16:06:56",
+                                "lastModified": "2019-10-25T10:59:14",
                                 "name": "Textures",
                                 "hash": "73452d89299c0635b19194ec17e1c733",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-16T12:18:21",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "echopark_diff.png",
                                         "hash": "671afbc1d6810060ccbaac866a91cfa1",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-16T12:18:21",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "echopark_spec.png",
                                         "hash": "8e599835d0d45c5879eafb1f474469cd",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-30T15:55:12",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "Base.png",
                                         "hash": "cb607d7b25a160872c49fb4d2635cc33",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-30T15:55:12",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "Normal.png",
                                         "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-30T15:55:12",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -625,27 +661,27 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-05-30T16:06:34",
+                                "lastModified": "2019-10-25T10:59:14",
                                 "name": "materials",
                                 "hash": "691c0b467b8c078a348931afe0a5fd21",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-30T16:06:34",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "boxMat.lsmat",
                                         "hash": "b5d7c9fdf21dbd206fa5b627f155a125",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-30T16:06:26",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "Matte Shadow.lsmat",
                                         "hash": "2b80d5e44765cef6094df5bb4e19bad4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-30T16:05:52",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -654,27 +690,27 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-05-30T17:50:16",
+                                "lastModified": "2019-10-25T10:59:14",
                                 "name": "prefabs",
                                 "hash": "ecafa6d65165b910608e02747ecd476c",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-30T17:50:16",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "PhysicsBox.oprfb",
                                         "hash": "ddaede056d17c0c8d380b392844dc6fa",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-30T17:50:16",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "PhysicsSphere.oprfb",
                                         "hash": "edbf819d873c7d03783c29037ce0f84d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-30T17:49:51",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -683,34 +719,34 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-05-30T17:49:41",
+                                "lastModified": "2019-10-25T10:59:14",
                                 "name": "meshes",
                                 "hash": "19c0f8f101bd2aeac040b441b2c79abb",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-22T21:36:15",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "Plane.mesh",
                                         "hash": "4649d59d58657e786eebaad58a052d2a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-22T21:36:19",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "Box.mesh",
                                         "hash": "0f22bac28f4bb7f9303722acb5d035e0",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-30T17:43:19",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "Sphere.mesh",
                                         "hash": "0484abd87ee78b2745eb9563b19fd6a2",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-30T16:06:01",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -719,34 +755,41 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-18T22:20:08",
+                                "lastModified": "2019-10-25T13:42:36",
                                 "name": "scripts",
-                                "hash": "f571ba623d195e1edffa3214d00c4218",
+                                "hash": "0d94a96cb585bbe01491b94643f1668b",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-30T17:44:43",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "physicsMesh.js",
                                         "hash": "04153a684e0b5bcae8948680d7626138",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-18T22:54:08",
-                                        "name": "Script.js",
-                                        "hash": "2aefec6cd45a5b0419c42b30ddd0eabc",
+                                        "lastModified": "2019-10-25T13:42:27",
+                                        "name": "Main.js",
+                                        "hash": "0b782c25bbcf24737327f61ea600c779",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-18T22:20:56",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "snapchatUtil.js",
                                         "hash": "19e40ba05d2744725d1fd17b3d1cf365",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-30T16:06:10",
+                                        "lastModified": "2019-10-25T13:42:12",
+                                        "name": "cannonHelper.js",
+                                        "hash": "07dda9f5896f281590a927ba80b37892",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-10-14T10:27:40",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -755,7 +798,7 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-05-16T12:18:21",
+                                "lastModified": "2019-10-14T10:27:40",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
@@ -980,7 +1023,7 @@
                         "additional": "",
                         "resources": [
                             {
-                                "name": "Script",
+                                "name": "Main",
                                 "type": "4",
                                 "subtype": "0",
                                 "resourceId": "10",
@@ -1016,6 +1059,19 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "183",
                                 "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "cannonHelper",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "29",
+                                "dependency": "0",
+                                "uid": "1572033663292737:6133",
+                                "fileId": "35",
+                                "originalId": "18446744073709551615",
+                                "publicId": "203",
+                                "source": "\/Users\/ashley\/Documents\/personal\/JS\/lens-studio-physics\/dist\/index.js",
                                 "additional": ""
                             }
                         ]
@@ -1065,7 +1121,17 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "resources": [
+                    {
+                        "uid": "1572033663292737:6133",
+                        "path_list": [
+                            "scripts",
+                            "cannonHelper"
+                        ]
+                    }
+                ]
+            }
         },
         "EffectsController": {
             "1": "",

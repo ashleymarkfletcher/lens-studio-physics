@@ -15,8 +15,9 @@ delayedEvent.bind(function(eventData) {
 delayedEvent.reset(0.1)
 
 function init() {
-  var Cannon = global.util.Cannon
-  var floor = Cannon.makeFloor()
+  var CannonHelper = global.Physics.CannonHelper
+
+  var floor = CannonHelper.makeFloor()
 
   var worldObjects = [
     // { sceneObject: script.box, physicsObject: box },
@@ -29,9 +30,9 @@ function init() {
 
       var shape
       if (meshSettings.api.shapeType == 'sphere') {
-        shape = Cannon.makeSphere(meshSettings.api.size, meshSettings.api.position, meshSettings.api.rotation)
+        shape = CannonHelper.makeSphere(meshSettings.api.size, meshSettings.api.position, meshSettings.api.rotation)
       } else {
-        shape = Cannon.makeBox(meshSettings.api.size, meshSettings.api.position, meshSettings.api.rotation)
+        shape = CannonHelper.makeBox(meshSettings.api.size, meshSettings.api.position, meshSettings.api.rotation)
       }
 
       worldObjects.push({ sceneObject: mesh, physicsObject: shape })
@@ -40,11 +41,11 @@ function init() {
     }
   })
 
-  var cannon = new Cannon(worldObjects)
+  var cannon = new CannonHelper(worldObjects)
   var originalCannon = cannon.CANNON
 
-  var sphere1 = Cannon.makeSphere(10, { x: 0, y: 50, z: 0 }, 0.1)
-  var sphere2 = Cannon.makeSphere(10, { x: 0, y: 50, z: 0 }, 0.1)
+  var sphere1 = CannonHelper.makeSphere(10, { x: 0, y: 50, z: 0 }, 0.1)
+  var sphere2 = CannonHelper.makeSphere(10, { x: 0, y: 50, z: 0 }, 0.1)
 
   // attempt to boost performance by making sleeping more agressive
   // sphere1.sleepSpeedLimit = 1.0
