@@ -1,6 +1,6 @@
 {
   "name": "lens-studio-physics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A helper module to bing Cannon.js physics with Lens Studio objects",
   "main": "./dist/index.js",
   "scripts": {

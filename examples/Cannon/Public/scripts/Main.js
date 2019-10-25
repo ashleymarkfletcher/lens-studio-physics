@@ -24,6 +24,7 @@ function init() {
     { sceneObject: script.floor, physicsObject: floor }
   ]
 
+  // using the scripts attached to the scene objects for setup
   script.meshes.forEach(function(mesh) {
     if (mesh.getComponentCount('Component.ScriptComponent') > 0) {
       var meshSettings = mesh.getFirstComponent('Component.ScriptComponent')
@@ -41,6 +42,7 @@ function init() {
     }
   })
 
+  // adding objects manuallly using the original Cannon module
   var cannon = new CannonHelper(worldObjects)
   var originalCannon = cannon.CANNON
 

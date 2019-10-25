@@ -3,7 +3,7 @@
     "document_id": "l9j4SYH7Ya5bTu1rrKlE",
     "original_document_id": "uiivrZ5N1dxHMXmHWyQP",
     "version": "16",
-    "lastChanged": "1572039066090",
+    "lastChanged": "1572046857432",
     "preview": "",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
@@ -96,10 +96,6 @@
                     [
                         "scripts",
                         "physicsMesh"
-                    ],
-                    [
-                        "scripts",
-                        "snapchatUtil"
                     ]
                 ]
             ]
@@ -177,14 +173,6 @@
                     "resId": "10",
                     "uid": "1557419882062297:1984",
                     "name": "Files\/File3.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "11",
-                    "uid": "1557924964551025:2659",
-                    "name": "Files\/File4.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -352,10 +340,6 @@
                     "v": "Files\/File3.js"
                 },
                 {
-                    "k": "4",
-                    "v": "Files\/File4.js"
-                },
-                {
                     "k": "5",
                     "v": "Files\/File5.mesh"
                 },
@@ -447,10 +431,6 @@
                         "v": "scripts\/Main.js"
                     },
                     {
-                        "k": "4",
-                        "v": "scripts\/snapchatUtil.js"
-                    },
-                    {
                         "k": "181",
                         "v": "meshes\/Plane.mesh"
                     },
@@ -526,7 +506,7 @@
                     },
                     {
                         "k": "3",
-                        "v": "0b782c25bbcf24737327f61ea600c779"
+                        "v": "e66e231748e66b8ccccdde8c194c646c"
                     },
                     {
                         "k": "4",
@@ -614,7 +594,7 @@
                         "isFolder": "true",
                         "lastModified": "2019-10-25T10:59:14",
                         "name": "Public",
-                        "hash": "b9a48e20d3171b591ac0247215b93d63",
+                        "hash": "af2e1a86f8df3291a2d9a39beb60bbf5",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -755,9 +735,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-25T13:42:36",
+                                "lastModified": "2019-10-25T16:40:41",
                                 "name": "scripts",
-                                "hash": "0d94a96cb585bbe01491b94643f1668b",
+                                "hash": "ecf42439ae18aa8fe911b6a8c829ae58",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -768,16 +748,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-25T13:42:27",
+                                        "lastModified": "2019-10-25T14:44:35",
                                         "name": "Main.js",
-                                        "hash": "0b782c25bbcf24737327f61ea600c779",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-10-14T10:27:40",
-                                        "name": "snapchatUtil.js",
-                                        "hash": "19e40ba05d2744725d1fd17b3d1cf365",
+                                        "hash": "e66e231748e66b8ccccdde8c194c646c",
                                         "children": ""
                                     },
                                     {
@@ -1036,19 +1009,6 @@
                                 "additional": ""
                             },
                             {
-                                "name": "snapchatUtil",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "11",
-                                "dependency": "0",
-                                "uid": "1557924964551025:2659",
-                                "fileId": "4",
-                                "originalId": "18446744073709551615",
-                                "publicId": "4",
-                                "source": "\/Users\/ashley\/Documents\/repos\/snapchat-util\/dist\/index.js",
-                                "additional": ""
-                            },
-                            {
                                 "name": "physicsMesh",
                                 "type": "4",
                                 "subtype": "0",
@@ -1124,10 +1084,10 @@
             "selection": {
                 "resources": [
                     {
-                        "uid": "1572033663292737:6133",
+                        "uid": "1559219348380361:4351",
                         "path_list": [
                             "scripts",
-                            "cannonHelper"
+                            "physicsMesh"
                         ]
                     }
                 ]
