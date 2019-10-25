@@ -1,12 +1,12 @@
 # lens-studio-physics
 A helper module to bing Cannon.js physics with Lens Studio objects
 
-[![NPM](https://nodei.co/npm/spark-ar-physics.png?downloads=true)](https://nodei.co/npm/spark-ar-physics/)
+[![NPM](https://nodei.co/npm/lens-studio-physics.png?downloads=true)](https://nodei.co/npm/lens-studio-physics/)
 
 ### Installing
 
 ```bash
-$ npm install spark-ar-physics
+$ npm install lens-studio-physics
 ```
 
 ## ToDo
