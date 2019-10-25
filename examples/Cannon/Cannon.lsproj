@@ -3,7 +3,7 @@
     "document_id": "l9j4SYH7Ya5bTu1rrKlE",
     "original_document_id": "uiivrZ5N1dxHMXmHWyQP",
     "version": "16",
-    "lastChanged": "1572046857432",
+    "lastChanged": "1572047304629",
     "preview": "",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
@@ -130,7 +130,9 @@
         },
         "InspectorUiComponent": {
             "collapsedList": [
-                ""
+                [
+                    "1559234729729113:333364"
+                ]
             ]
         }
     },
@@ -506,7 +508,7 @@
                     },
                     {
                         "k": "3",
-                        "v": "e66e231748e66b8ccccdde8c194c646c"
+                        "v": "bb2fbabbba367e959b6eb76ed7be92d4"
                     },
                     {
                         "k": "4",
@@ -594,7 +596,7 @@
                         "isFolder": "true",
                         "lastModified": "2019-10-25T10:59:14",
                         "name": "Public",
-                        "hash": "af2e1a86f8df3291a2d9a39beb60bbf5",
+                        "hash": "9f12f68abeba5c0298442c4790a5a5c4",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -737,7 +739,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2019-10-25T16:40:41",
                                 "name": "scripts",
-                                "hash": "ecf42439ae18aa8fe911b6a8c829ae58",
+                                "hash": "b2143501257bfa28484656f8b62d896c",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -748,9 +750,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-25T14:44:35",
+                                        "lastModified": "2019-10-25T16:46:54",
                                         "name": "Main.js",
-                                        "hash": "e66e231748e66b8ccccdde8c194c646c",
+                                        "hash": "bb2fbabbba367e959b6eb76ed7be92d4",
                                         "children": ""
                                     },
                                     {
@@ -1082,14 +1084,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1559219348380361:4351",
-                        "path_list": [
-                            "scripts",
-                            "physicsMesh"
-                        ]
-                    }
+                "objects": [
+                    "1559234599877286:313243"
                 ]
             }
         },

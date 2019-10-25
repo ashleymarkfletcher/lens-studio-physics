@@ -55,8 +55,8 @@ function init() {
 
   var s1 = { sceneObject: script.sphere1, physicsObject: sphere1 }
   var s2 = { sceneObject: script.sphere2, physicsObject: sphere2 }
-  // cannon.addWorldObject(s1)
-  // cannon.addWorldObject(s2)
+  cannon.addWorldObject(s1)
+  cannon.addWorldObject(s2)
 
   var cameraBox = new originalCannon.Body({
     mass: 100,
